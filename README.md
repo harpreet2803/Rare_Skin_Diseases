@@ -1,1 +1,8 @@
 # Rare_Skin_Diseases
+
+In this study, we present the first comprehensive implementation and evaluation of machine learning approaches for rare skin disease classification using MIMIC-IV EHR data, guided by the high-level roadmap proposed in Banerjee et al. (2023). Our contributions are as follows:
+
+1. Dataset construction based on Orphanet + MIMIC-IV + FDA drug database integration. We combine structured EHR data from MIMIC-IV with classification data from Orphanet and drug-level information from the FDA drug database to construct a clinically validated rare skin disease cohort. 
+2. Evaluation of negative class selection on model performance. We construct four separate datasets with varying negative class definitions (common diseases, rare non-skin diseases, common skin diseases, and a mixed group), allowing us to quantitatively demonstrate the impact of negative class selection on model performance, an issue largely overlooked in the rare disease ML literature.
+3. Thorough Interpretability and Robust Error Analysis. We conduct in-depth post hoc model interpretability and error analysis using SHAP, counterfactual explanations, and anchor-based rule generation. We identify key feature drivers, highlight high-confidence misclassifications, analyze decision boundaries, and extract rules that explain up to 80\% of correctly classified rare skin disease cases
+4. Fairness Evaluation for Demographically Sensitive Diseases. Recognizing the importance of racial and demographic variation in skin disease manifestation, we conduct a subgroup fairness analysis using DALEX and SHAP. We demonstrate that model performance variation across racial groups may reflect true clinical differences 
