@@ -14,11 +14,19 @@ We used the https://mimic.mit.edu/docs/iv/ - MIMIC-IV dataset which contains rea
 
 ## The order of files and data to be followed.
 Data_Extraction_Orphanet_and_MIMIC.ipynb
+
 Data_Combination.ipynb
+
 Data_Preprocessing.ipynb
+
 Data_Analysis.ipynb
+
 Model_Building.ipynb
+
 Model_Training_&_Testing.ipynb
+
 ML_Interpretability.ipynb
+
 Model_Fairness.ipynb
+
 Explaining_CSD_vs_RSD.ipynb
